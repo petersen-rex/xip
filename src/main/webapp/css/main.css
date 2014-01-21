@@ -1,0 +1,120 @@
+/* Layout */
+#splitterContainer {
+	height:95%;
+	width:100%;
+	margin:0;
+	padding:0;
+	border:1px solid silver;
+}
+#leftPane{
+float:left;width:15%;height:100%;
+background:#dce3ea;
+overflow: auto;
+}
+#rightPane{	/*Contains toolbar and horizontal splitter*/
+float:right;width:85%;height:100%;
+background:#dce3ea;
+overflow:hidden;
+}
+#rightSplitterContainer{/*horizontal splitter*/	
+width:100%;
+background:#FFFFFF;
+} 
+
+#rightTopPane{/*Top nested in horizontal splitter */
+	padding-right:10px;
+	overflow:auto;background:#dce3ea;
+}
+#rightBottomPane{/*Bottom nested in horizontal splitter */
+background:#dce3ea;width:100%;overflow:auto;
+}
+
+
+/* Splitbar styles; these are the default class names and required styles */
+.splitbarV {
+float:left;width:4px;height:100%;
+line-height:0px;font-size:0px;
+border-left:solid 1px silver;border-right:solid 1px silver;
+background:#BDC8D6; /* url(img/panev.gif) 0% 50%;*/
+}
+.splitbarH {
+height:4px;text-align:left;line-height:0px;font-size:0px;
+border-top:solid 1px silver;
+border-bottom:solid 1px silver;
+background:#BDC8D6; /* url(img/paneh.gif) 50% 0%; */
+}
+
+.splitbarV.working,.splitbarH.working,.splitbuttonV.working,.splitbuttonH.working{
+ -moz-opacity:.50; filter:alpha(opacity=50); opacity:.50;
+}
+
+
+/* UI */
+
+.ui-menu { position: absolute; width: 250px; }
+
+.dataTables_wrapper{
+	outline:none;
+}
+
+#serviceHeader, #serviceToolbar, #serviceList{
+	padding: 10px 10px 10px 10px;
+}
+#serviceToolbar{
+	background: #BDC8D6;
+}
+#serviceList{
+	margin-top:15px;
+}
+#serviceList .dataTables_scroll{
+	margin-top: 15px;
+}
+#service-grid tr.odd{
+	background: #CDD8E6;
+}
+#service-grid tr{
+	height: 25px;
+}
+#service-grid tr.row_selected{
+	background: #427EAD;
+	color: #eeeeee;
+}
+#service-grid_filter{
+	float:right;
+}
+#serviceLauncher{
+	background: #BDC8D6;
+	padding:5px;
+	
+}
+#serviceResults{
+	padding:5px;
+}
+#serviceUrl{
+	width: 500px;
+}
+#serviceExtraParms{
+	width:200px;
+}
+
+.form-one-column textarea, .form-two-column textarea{
+	width:100%;
+}
+.form-one-column, .form-two-column {
+	list-style:none;
+}
+#serviceText{
+	height:500px;
+}
+#serviceHeader h2{
+	text-align:center;
+}
+
+.form-one-column label, .form-two-column label {
+	font-weight:bold;
+}
+.form-one-column textarea, .form-two-column textarea,
+.form-two-column select {
+	display:block;
+	margin:2px 0px 5px 0px;
+}

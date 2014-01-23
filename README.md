@@ -1,0 +1,4 @@
+xip
+===
+
+Liferay Integration Platfrom

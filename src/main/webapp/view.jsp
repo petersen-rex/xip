@@ -16,7 +16,7 @@
 <div id="splitterContainer" style="height:700px">
 	<div id="leftPane">
 		<div id="serviceHeader">
-			<span><h2>Defined Services</h2></span>
+			<h2><span>Defined Services</span></h2>
 		</div>
 		<div id="serviceToolbar">
 		    <div>
@@ -37,7 +37,7 @@
 		    </div>
 	    </div>
 		<div id="serviceList">
-			<table id="service-grid" class="grid" cellpadding="0" cellspacing="0" border="0">
+			<table id="service-grid" class="grid">
 				<thead>
 					<tr>
 						<th width="75%">Name</th>
@@ -59,7 +59,7 @@
 							<textarea class="one-line" id="serviceName" name="serviceName"></textarea>
 						</li>
 						<li>
-							<label for"serviceType">Service Type</label>
+							<label for="serviceType">Service Type</label>
 							<br />
 							<select id="serviceType" name="serviceType">
 								<option value="wsdl">WSDL / SOAP</option>

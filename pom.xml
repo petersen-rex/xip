@@ -53,6 +53,7 @@
 			<version>${liferay.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>com.liferay.portal</groupId>
 			<artifactId>util-taglib</artifactId>
@@ -142,9 +143,9 @@
 	</dependencies>
 <profiles>
 <profile>
-	<id>Liferay-v6.2-CE-(Tomcat-7)</id>
+	<id>RexProfile</id>
 	<properties>
-		<liferay.version>6.2.0-ga1</liferay.version>
+		<liferay.version>6.2.10.1</liferay.version>
 		<liferay.maven.plugin.version>6.2.0-RC5</liferay.maven.plugin.version>
 		<liferay.auto.deploy.dir>/lr62/cp/lr/deploy</liferay.auto.deploy.dir>
 		<liferay.app.server.deploy.dir>/lr62/cp/lr/tomcat-7.0.42/webapps</liferay.app.server.deploy.dir>
